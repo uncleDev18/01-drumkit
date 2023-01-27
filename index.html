@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="wdata-keyth=device-wdata-keyth, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Drumkit</title>
+</head>
+<body>
+    <div class="container">
+        <h1>My Simple Drumkit</h1>
+        <div class="keys">
+            <div>
+                <div data-key="55" class="key clap-El" onclick="clap()">
+                    <kbd>7</kbd>
+                    <span class="sound">clap</span>
+                </div>
+        
+                <div data-key="52" class="key hithat-El" onclick="hithat()">
+                    <kbd>4</kbd>
+                    <span class="sound">hihat</span>
+                </div>
+        
+                <div data-key="49" class="key kick-El" onclick="kick()">
+                    <kbd>1</kbd>
+                    <span class="sound">kick</span>
+                </div>
+            </div>
+            
+            <div>
+                <div data-key="56" class="key openhat-El" onclick="openhat()">
+                    <kbd>8</kbd>
+                    <span class="sound">openhat</span>
+                </div>
+        
+                <div data-key="53" class="key boom-El" onclick="boom()">
+                    <kbd>5</kbd>
+                    <span class="sound">boom</span>
+                </div>
+        
+                <div data-key="50" class="key ride-El" onclick="ride()">
+                    <kbd>2</kbd>
+                    <span class="sound">ride</span>
+                </div>
+            </div>
+            
+            <div>
+                <div data-key="57" class="key snare-El" onclick="snare()">
+                    <kbd>9</kbd>
+                    <span class="sound">snare</span>
+                </div>
+        
+                <div data-key="54" class="key tom-El" onclick="tom()">
+                    <kbd>6</kbd>
+                    <span class="sound">tom</span>
+                </div>
+        
+                <div data-key="51" class="key tink-El" onclick="tink()">
+                    <kbd>3</kbd>
+                    <span class="sound">tink</span>
+                </div>
+            </div>
+        </div>
+
+        <footer><a href="www.facebook.com/verastigue18">< Uncle Dev /></a></footer>
+    </div>
+
+    <audio id="clap-el" data-key="55" src="./sounds/01 - JavaScript Drum Kit_sounds_clap.wav"></audio>
+    <audio id="hithat-el" data-key="52" src="./sounds/01 - JavaScript Drum Kit_sounds_hihat.wav"></audio>
+    <audio id="kick-el" data-key="49" src="./sounds/01 - JavaScript Drum Kit_sounds_kick.wav"></audio>
+    <audio id="openhat-el" data-key="56" src="./sounds/01 - JavaScript Drum Kit_sounds_openhat.wav"></audio>
+    <audio id="boom-el" data-key="53" src="./sounds/01 - JavaScript Drum Kit_sounds_boom.wav"></audio>
+    <audio id="ride-el" data-key="50" src="./sounds/01 - JavaScript Drum Kit_sounds_ride.wav"></audio>
+    <audio id="snare-el" data-key="57" src="./sounds/01 - JavaScript Drum Kit_sounds_snare.wav"></audio>
+    <audio id="tom-el" data-key="54" src="./sounds/01 - JavaScript Drum Kit_sounds_tom.wav"></audio>
+    <audio id="tink-el" data-key="51" src="./sounds/01 - JavaScript Drum Kit_sounds_tink.wav"></audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
